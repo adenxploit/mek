@@ -89,7 +89,7 @@ def exploit(target_url):
             
             if check_shell(shell_url):
                 with lock:
-                    print("    [+] FOUND: %s" % shell_path)
+                    print("    [+] 🤍😭🤍😭🤍🤍🤍😭😭: %s" % shell_path)
                 return True, shell_url, resp_clean[:200]
             else:
                 with lock:

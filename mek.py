@@ -24,7 +24,7 @@ def rnd(n=8):
     return "".join(random.choice(string.ascii_lowercase) for _ in range(n))
 
 def build_zip(name, shell_rel):
-    #shell_codes = r'''
+    shell_codes = r'''
 
 
 

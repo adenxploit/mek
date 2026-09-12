@@ -193,7 +193,7 @@ def worker(queue, result_file, total, counter):
             if status:
                 with open(result_file, "a") as f:
                     f.write("%s\n" % shell_url)
-                print("    [+] OK: %s" % shell_url)
+                print("    [🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🙏🏻🤍🤍🤍🤍🤍🤍🤍🤍] OK: %s" % shell_url)
                 counter[0] += 1
             else:
                 print("    [-] FAIL: %s" % resp)
